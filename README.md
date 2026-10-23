@@ -39,11 +39,33 @@ data, camera position, lighting and the examination environment.
 
 ## Demo / app preview
 
-Real screenshots are still to be supplied. See the
-[screenshot checklist](docs/screenshots/README.md) for eight recommended captures
-and privacy requirements. The repository contains branding artwork, not fabricated
-screenshots. Device/backend demonstration evidence is not equivalent to an
-independently measured accuracy or performance benchmark.
+Privacy-sanitized captures from the working application are included below. They
+show the authentication, workspace, monitored-exam and remote media-analysis
+flows. These screenshots demonstrate UI and integration behavior; they are not
+an independently measured detector-accuracy or performance benchmark.
+
+<table>
+  <tr>
+    <td align="center"><strong>Sign in</strong><br><img src="docs/screenshots/01_login.png" width="300" alt="AI Guard sign-in screen"></td>
+    <td align="center"><strong>Workspace</strong><br><img src="docs/screenshots/02_workspace.png" width="300" alt="AI Guard workspace"></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Exam rules</strong><br><img src="docs/screenshots/03_exam_rules.png" width="300" alt="AI Guard exam rules"></td>
+    <td align="center"><strong>Exam monitoring</strong><br><img src="docs/screenshots/04_exam_monitoring.png" width="300" alt="AI Guard monitored exam screen"></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Image analysis</strong><br><img src="docs/screenshots/05_image_analysis.png" width="300" alt="AI Guard image analysis"></td>
+    <td align="center"><strong>Video analysis</strong><br><img src="docs/screenshots/06_video_analysis.png" width="300" alt="AI Guard recorded video analysis"></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Video processing</strong><br><img src="docs/screenshots/07_video_processing.png" width="300" alt="AI Guard video processing progress"></td>
+    <td align="center"><strong>Processed result</strong><br><img src="docs/screenshots/08_video_result.png" width="300" alt="AI Guard processed video result with detection overlays"></td>
+  </tr>
+</table>
+
+The public captures are sanitized for portfolio use. Model output shown in the
+processed-video example is illustrative project evidence and still requires
+human review.
 
 ## How it works
 
@@ -283,7 +305,6 @@ passing mocked test is not a detector-accuracy test.
 - Use informed consent, a retention policy and human review. Screenshots should
   use generic demo identities and consented media.
 - Third-party licenses and attribution notices remain intact.
-- Nothing has been pushed or published by this preparation pass.
 
 Read [security and publication guidance](docs/SECURITY.md).
 
