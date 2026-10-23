@@ -1,0 +1,56 @@
+name: aicheat
+description: "AI-Powered Proctoring System"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.7.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ── Firebase ──────────────────────────────────────────────────────────────
+  firebase_core: ^3.0.0
+  firebase_auth: ^5.0.0
+  cloud_firestore: ^5.0.0
+  google_sign_in: ^6.2.2
+
+  # ── UI ────────────────────────────────────────────────────────────────────
+  google_fonts: ^6.2.1
+  cupertino_icons: ^1.0.8
+
+  # ── Camera ────────────────────────────────────────────────────────────────
+  camera: ^0.11.0
+
+  # ── Google ML Kit ─────────────────────────────────────────────────────────
+  # Original Dart/Android implementations; iOS pods aligned with ML Kit 7.
+  google_mlkit_object_detection:
+    path: third_party/google_mlkit_object_detection
+  google_mlkit_image_labeling:
+    path: third_party/google_mlkit_image_labeling
+  google_mlkit_face_detection:
+    path: third_party/google_mlkit_face_detection
+  google_mlkit_face_mesh_detection: ^0.1.0
+
+  # ── HTTP & Image ──────────────────────────────────────────────────────────
+  http: ^1.1.0
+  http_parser: ^4.0.2
+  image_picker: ^1.0.4
+
+  # ── Utilities ─────────────────────────────────────────────────────────────
+  image: ^4.3.0
+  path_provider: ^2.1.2
+  video_player: ^2.10.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: PlusJakartaSans
+      fonts:
+        - asset: assets/fonts/PlusJakartaSans.ttf
